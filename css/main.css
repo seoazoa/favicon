@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+/* font-family: 'Gowun Batang', serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+/* 상단 */
+header{
+    background-color: bisque;
+}
+nav{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: right;
+}
+nav > *{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+nav a img{
+    width: 14px;
+}
+#menu{
+    opacity: 0.5;
+}
+nav span{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+    position:absolute;
+    top:-8px;
+    left: -8px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+nav span:hover{
+    opacity: 1;
+}
+#imgs:hover{
+    text-decoration: underline;
+}
+#mail:hover{
+    text-decoration: underline;
+}
+#login{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #4484f3;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#login:hover{
+    background-color: #3465b9;
+    transition: all 0.3s;
+}
+.search_bar{
+    font-size: 15px;
+}
